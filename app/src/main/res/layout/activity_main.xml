@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"/>
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:inputType="textPersonName"
+android:text="Nombre"
+android:ems="10"
+android:id="@+id/nombre"
+tools:layout_editor_absoluteX="54dp"
+app:layout_constraintTop_toTopOf="parent"
+android:layout_marginTop="32dp" />
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:inputType="textPersonName"
+android:text="Apellido Paterno"
+android:ems="10"
+android:id="@+id/paterno"
+tools:layout_editor_absoluteX="54dp"
+app:layout_constraintBottom_toBottomOf="parent"
+android:layout_marginBottom="590dp" />
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:inputType="textPersonName"
+android:text="Apellido Materno"
+android:ems="10"
+android:id="@+id/materno"
+tools:layout_editor_absoluteX="54dp"
+app:layout_constraintBottom_toBottomOf="parent"
+android:layout_marginBottom="526dp" />
+
+<EditText
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:inputType="textPersonName"
+android:text="Edad"
+android:ems="10"
+android:id="@+id/edad"
+tools:layout_editor_absoluteX="54dp"
+app:layout_constraintBottom_toBottomOf="parent"
+android:layout_marginBottom="460dp" />
+
+<ListView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/list"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+android:layout_marginTop="400dp"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+android:layout_marginLeft="20dp"
+android:layout_marginStart="20dp"
+android:layout_marginRight="20dp"
+android:layout_marginEnd="20dp"
+android:layout_marginBottom="20dp">
+
+</ListView>
+
+<Button
+android:text="agregar"
+android:layout_width="wrap_content"
